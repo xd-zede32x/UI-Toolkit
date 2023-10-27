@@ -1,0 +1,153 @@
+.Button {
+    position: relative;
+    top: -24px;
+    left: 0;
+    width: 95%;
+    height: 20%;
+    background-color: rgb(0, 100, 255);
+    justify-content: space-around;
+    align-self: center;
+    align-items: auto;
+    border-left-color: rgb(65, 65, 65);
+    border-right-color: rgb(65, 65, 65);
+    border-top-color: rgb(65, 65, 65);
+    border-bottom-color: rgb(65, 65, 65);
+    border-top-width: 15px;
+    border-right-width: 15px;
+    border-bottom-width: 15px;
+    border-left-width: 15px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    -unity-background-scale-mode: stretch-to-fill;
+    opacity: 1;
+    -unity-font-definition: url('project://database/Assets/Fonts/NewFonts/Roboto-Bold%20SDF.asset?fileID=11400000&guid=7a1511d984e3c6945aea1c6d34332b21&type=2#Roboto-Bold SDF');
+}
+
+.Button:active {
+    background-color: rgb(41, 164, 106);
+    font-size: 65px;
+    -unity-font-style: bold;
+}
+
+.Button:hover {
+    background-color: rgba(245, 36, 36, 0.84);
+    font-size: 62px;
+    -unity-font-style: bold;
+    color: rgb(255, 255, 255);
+    scale: 1.01 1.01;
+    -unity-font-definition: url('project://database/Assets/Fonts/NewFonts/Roboto-Black%20SDF.asset?fileID=11400000&guid=51aae9b7cc53ae244870b77b385b758f&type=2#Roboto-Black SDF');
+    -unity-text-outline-width: 3px;
+    -unity-text-outline-color: rgb(77, 77, 77);
+}
+
+.Charters {
+    opacity: 1;
+    top: 0;
+    position: absolute;
+    -unity-text-align: upper-center;
+}
+
+.text {
+    justify-content: flex-start;
+    align-self: center;
+    align-items: flex-end;
+    top: 67px;
+    height: 92px;
+    width: 561px;
+    position: absolute;
+    left: 25%;
+    -unity-text-align: middle-center;
+    font-size: 80px;
+    -unity-font-style: bold;
+    -unity-font-definition: url('project://database/Assets/Fonts/NewFonts/Roboto-Bold%20SDF.asset?fileID=11400000&guid=7a1511d984e3c6945aea1c6d34332b21&type=2#Roboto-Bold SDF');
+}
+
+.text {
+    position: absolute;
+    top: 208px;
+    left: 22px;
+    height: 497px;
+    width: 1015px;
+    flex-wrap: nowrap;
+    white-space: normal;
+    font-size: 32px;
+    color: rgb(77, 77, 77);
+    -unity-font-style: bold;
+    border-left-color: rgba(53, 53, 53, 0);
+    border-right-color: rgba(53, 53, 53, 0);
+    border-top-color: rgba(53, 53, 53, 0);
+    border-bottom-color: rgba(53, 53, 53, 0);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    -unity-text-align: middle-center;
+    flex-grow: 0;
+    align-self: center;
+    -unity-font-definition: url('project://database/Assets/Fonts/NewFonts/Roboto-BoldItalic%20SDF.asset?fileID=11400000&guid=2f8c987ef79161c4aa62926eb2f5264e&type=2#Roboto-BoldItalic SDF');
+}
+
+.screen {
+    opacity: 0;
+    height: 1920px;
+    width: 1080px;
+    background-color: rgba(0, 0, 0, 0.51);
+}
+
+.buttons--down {
+    height: 120%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    translate: 0 100%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-bounce;
+}
+
+.buttons--up {
+    translate: 0 0;
+    transition-timing-function: ease-in-bounce;
+    transition-duration: 0s;
+}
+
+.sceenShift {
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+.image--boy {
+    flex-grow: 0;
+    white-space: normal;
+    -unity-text-align: upper-left;
+    width: 400px;
+    height: 600px;
+    left: 5%;
+    top: 33%;
+    background-image: url('project://database/Assets/Sprites/Hyperspace%20-%20Floating.png?fileID=2800000&guid=b7ad2c81981e2874bbdca6592169b00b&type=3#Hyperspace - Floating');
+    align-self: auto;
+    max-height: none;
+    -unity-font-style: normal;
+    flex-direction: column-reverse;
+    position: absolute;
+    transition-duration: 2.5s;
+    transition-timing-function: ease-in-out-cubic;
+}
+
+.image--boy--inier {
+    translate: -500px -400px;
+}
+
+.image--girl {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/Sprites/Hyperspace%20-%20Projector.png?fileID=2800000&guid=68a637d5a53bc6a4290bf47226c2ed60&type=3#Hyperspace - Projector');
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transition-duration: 1s;
+}
+
+.image--girl--up {
+    translate: 0 -50px;
+}
