@@ -1,0 +1,90 @@
+#MySlider Label {
+    display: none;
+    opacity: 1;
+}
+
+#MySlider #unity-drag-container {
+    background-color: rgb(188, 31, 31);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 47px;
+    translate: 0 33px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#MySlider #unity-tracker {
+    background-color: rgb(72, 72, 72);
+    flex-grow: 1;
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    height: -148px;
+    border-left-color: rgb(69, 171, 255);
+    border-right-color: rgb(69, 171, 255);
+    border-top-color: rgb(69, 171, 255);
+    border-bottom-color: rgb(69, 171, 255);
+}
+
+#MySlider #unity-dragger {
+    background-color: rgb(0, 255, 114);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 30px;
+    height: 47px;
+    top: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-left-color: rgb(2, 2, 2);
+    border-right-color: rgb(2, 2, 2);
+    border-top-color: rgb(2, 2, 2);
+    border-bottom-color: rgb(2, 2, 2);
+}
+
+.bar {
+    width: 2000px;
+    height: 100%;
+    background-color: rgb(84, 130, 193);
+    align-self: flex-end;
+    background-image: none;
+}
+
+.newDragger {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('project://database/Assets/Sprites/Sphera.png?fileID=2800000&guid=8011b9ef7d53d3649bc4edd6344929e9&type=3#Sphera');
+    -unity-slice-left: 5;
+    -unity-slice-top: 5;
+    -unity-slice-right: 5;
+    -unity-slice-bottom: 5;
+    -unity-background-scale-mode: stretch-to-fill;
+}
+
+.bubble {
+    flex-grow: 1;
+    position: absolute;
+    background-image: url('project://database/Assets/Sprites/Water.png?fileID=2800000&guid=df01e06329d97264c89b9b9739c5df27&type=3#Water');
+    width: 0;
+    height: 0;
+    top: 595px;
+    left: 383px;
+    justify-content: center;
+}

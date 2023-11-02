@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Plane_3" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Starfield%20Skybox/Demo/Textures/Down_Tex.png?fileID=2800000&amp;guid=a3b2b45ab4da8b343ad09a56207d3910&amp;type=3#Down_Tex&apos;);" />
+    <ui:VisualElement name="Plane4" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Starfield%20Skybox/Demo/Textures/Right_Tex.png?fileID=2800000&amp;guid=411c36f0804e8c248a3f6470ca50cd85&amp;type=3#Right_Tex&apos;);" />
+    <ui:VisualElement name="Plane6" style="flex-grow: 1; background-image: url(&apos;project://database/Assets/Starfield%20Skybox/Demo/Textures/Right_Tex.png?fileID=2800000&amp;guid=411c36f0804e8c248a3f6470ca50cd85&amp;type=3#Right_Tex&apos;);" />
+</ui:UXML>

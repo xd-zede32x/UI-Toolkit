@@ -37,13 +37,8 @@ public class UIController : MonoBehaviour
         _openButton.RegisterCallback<ClickEvent>(OnOpenButtonClicked);
         _closeButton.RegisterCallback<ClickEvent>(OnCloseButtonClicked);
 
-        Invoke("AnimationBoy", 0.1f);
+        Invoke("AnimationBoy", 0.1f); 
         _bottomSheet.RegisterCallback<TransitionEndEvent>(OnBottomSheetDown);
-    }
-
-    private void Update()
-    {
-        Debug.Log(_boy.ClassListContains("image--boy--inier"));
     }
 
     private void OnOpenButtonClicked(ClickEvent click)
